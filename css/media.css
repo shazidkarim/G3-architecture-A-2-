@@ -1,0 +1,39 @@
+/* header css part  */
+@media(max-width:575px) {
+    .logo{
+     font-weight: 400;
+     text-align: center;
+     font-size: 40px;
+    }
+    .nav-menu{
+     float: none;
+     margin: auto;
+    }
+    .nav-class{
+        text-align: center;
+    }
+    .li-class{
+     display: flex;
+    }
+    .intro-div {
+     margin-top: 20px;
+     text-align: center;
+     padding: 10px;
+     }
+     .intro-div-p{
+         width: 100%;
+         text-align: center;
+     }
+     .header-img-div{
+         width: 90%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+     }
+     .header-img {
+         width: 100%;
+      
+     }
+ }
+ /* feature media css start  */
