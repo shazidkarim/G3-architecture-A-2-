@@ -165,3 +165,74 @@ header {
     font-weight: 400;
     font-size: 16px;
 }
+
+/* button css  */
+.position-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.button-class {
+    position: absolute;
+    right: 700px;
+    top: -56px;
+}
+
+.facts {
+    width: 80%;
+    margin: auto;
+    margin-top: 100PX;
+}
+
+.facts h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 20PX;
+
+}
+
+.facts p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* awards css  */
+.awards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+
+}
+
+.awards-box {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+.awards-box h1 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.awards-box p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+.awards-box:hover{
+    background-color: #FF900E;
+    border: 2px solid #0b84ee;
+}
