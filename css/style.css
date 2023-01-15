@@ -232,7 +232,39 @@ header {
     font-weight: 600;
     font-size: 20px;
 }
-.awards-box:hover{
+
+.awards-box:hover {
     background-color: #FF900E;
     border: 2px solid #0b84ee;
+}
+
+.sponsor-section {
+    margin: 200px;
+}
+
+.sponsor {
+    text-align: center;
+}
+
+.sponsor h1 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+
+}
+
+.sponsor p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.sponsor-images {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    filter: grayscale(100%);
+    margin-top: 50px;
 }
