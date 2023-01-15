@@ -105,12 +105,17 @@ header {
 
 .feature-text {
     margin: auto;
-
-
+}
+.span-one{
+    color: #131313;
+}
+.span-two{
+    color: #FF900E;
 }
 
 .feature-text h1 {
     margin-bottom: 30px;
+    color: #727272;
 
 }
 
@@ -267,4 +272,50 @@ header {
     cursor: pointer;
     filter: grayscale(100%);
     margin-top: 50px;
+}
+/* about me css  */
+.about-me {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.about-me-h1 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.about-me-p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.btn-button-one{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#FF900E;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+}
+.about-me-img{
+   height: 700px;
+    margin-left: 300px;
+}
+/* footer css  */
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
 }
