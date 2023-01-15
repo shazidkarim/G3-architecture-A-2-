@@ -136,6 +136,12 @@ header {
     margin: auto;
     margin-right: 20px;
 }
+.vertical-line{
+    border-left: 5px solid #FF900E;
+    height: 100px;
+    width: 10px;
+    float: left;
+}
 
 .feature-heading h1 {
     margin-bottom: 30px;
@@ -311,6 +317,7 @@ footer {
     background: #FFF4E7;
     border-radius: 8px;
     padding: 30px;
+    margin: 50px;
 }
 
 footer p {
